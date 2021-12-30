@@ -19,7 +19,7 @@ const Home = () => {
           <div className={styles.blackBg}>
             <code className={styles.code}>
               <p>{"{"}</p>
-              <p className={styles.indent}>name: &ldquo;Elijah Lee&rdquo;,</p>
+              <p className={styles.indent}>name: &ldquo;Md Kamal Hossen&rdquo;,</p>
               <p className={styles.indent}>occupation: &ldquo;Frontend Developer&rdquo;,</p>
               <p className={styles.indent}>languages: [&ldquo;English&rdquo;, &ldquo;Korean&rdquo;],</p>
               <p className={styles.indent}>for_hire: true</p>
