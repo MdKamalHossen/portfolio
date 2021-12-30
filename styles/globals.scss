@@ -1,0 +1,30 @@
+:root {
+  --tatami-border: #000;
+  --tatami-bg: #E0D4B4;
+  --primary-text: #fff; 
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.noBorder {
+  border: none!important;
+}

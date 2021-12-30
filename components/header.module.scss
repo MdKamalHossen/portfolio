@@ -1,0 +1,140 @@
+@import '../styles/mixins';
+
+.header {
+  background: var(--tatami-bg);;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  > ul {
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+    list-style: none;
+    border-left: 5px solid var(--tatami-border);
+    border-bottom: 5px solid var(--tatami-border);
+    @include mobile {
+      border: none;
+    }
+    > li {
+      font-size: 1.25rem;
+      position: relative;
+      width: 6em;
+      @include tablet {
+        font-size: 1rem;
+      }
+      @include mobile {
+        font-size: .75rem;
+      }
+      &:not(:last-child) {
+        margin-right: 1.5em;
+        @include mobile {
+          margin-right: 1em;
+        }
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: .5em;
+        display: block;
+        width: 0;
+        height: .25em;
+        background: var(--tatami-border);
+      }
+      &:hover {
+        &::after {
+          width: 5em;
+          transition: width .3s;
+        }
+      }
+      > a {
+        display: flex;
+        justify-content: center;
+        width: 6em;
+        padding: 1em;
+      }
+    }
+    .isActive {
+      &::after {
+        width: 5em;
+      }
+    }
+  }
+}
+
+// circle link
+.circleWrap {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  @include mobile {
+    background: inherit!important;
+    justify-content: end;
+  }
+  > a {
+    display: block;
+    width: 3.125em;
+    height: 3.125em;
+    background: var(--tatami-border);
+    border-radius: 50%;
+    @include mobile {
+      width: 2em;
+      height: 2em;
+    }
+  }
+}
+
+// sliding switch
+.switchWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  border-bottom: 5px solid var(--tatami-border);
+  @include mobile {
+    justify-content: start;
+    border-bottom: none;
+  }
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 4em;
+  height: 2em;
+  @include mobile {
+    width: 3em;
+    height: 1.5em;
+  }
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--tatami-bg);
+  border: 5px solid var(--tatami-border);
+  &:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 50%;
+    background-color: var(--tatami-border);
+    transition: .25s;
+  }
+}
+
+input {
+  &:checked + .slider:before {
+    transform: translateX(100%);
+  }
+}

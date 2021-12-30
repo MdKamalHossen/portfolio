@@ -1,0 +1,40 @@
+$pc-sm-breakpoint: 75rem; // 1200px / 16px = 75rem
+$tablet-breakpoint: 64rem; // 1024px / 16px = 64rem
+$mobile-breakpoint: 47.9375rem; // 767px / 16px = 47.9375rem
+$mobile-sm-breakpoint: 31.25rem; // 500px / 16px = 31.25rem
+$mobile-xs-breakpoint: 23.5rem; // 375px / 16px = 23.5rem
+
+// pc small 1200px
+@mixin pcSm {
+  @media (max-width: $pc-sm-breakpoint) {
+    @content;
+  }
+}
+
+// tablet 1024px
+@mixin tablet {
+  @media (max-width: $tablet-breakpoint) {
+    @content;
+  }
+}
+
+// mobile 767px
+@mixin mobile {
+  @media (max-width: $mobile-breakpoint) {
+    @content;
+  }
+}
+
+// mobile small 500px
+@mixin mobileSm {
+  @media (max-width: $mobile-sm-breakpoint) {
+    @content;
+  }
+}
+
+// mobile extra small 375px
+@mixin mobileXs {
+  @media (max-width: $mobile-xs-breakpoint) {
+    @content;
+  }
+}
