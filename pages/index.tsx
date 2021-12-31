@@ -18,12 +18,12 @@ const Home = () => {
         <main className={`${styles.main} ${theme?.borders ? `noBorder` : ''}`} style={{ background: theme.mainBg }}>
           <div className={styles.blackBg}>
             <code className={styles.code}>
-              <p>{"{"}</p>
+              {/* <p>{"{"}</p>
               <p className={styles.indent}>name: &ldquo;Md Kamal Hossen&rdquo;,</p>
               <p className={styles.indent}>occupation: &ldquo;Frontend Developer&rdquo;,</p>
               <p className={styles.indent}>languages: [&ldquo;English&rdquo;, &ldquo;Bangla&rdquo;],</p>
               <p className={styles.indent}>for_hire: true</p>
-              <p>{"}"}</p>
+              <p>{"}"}</p> */}
             </code>
           </div>
           <a href="/pdf/ElijahLee_CV.pdf" target="_blank" className={styles.cvBtn}>Download CV</a>
