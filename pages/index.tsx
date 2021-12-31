@@ -9,8 +9,8 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Elijah Lee | Frontend Developer</title>
-        <meta name="description" content="Elijah Lee Frontend Developer Portfolio" />
+        <title>KAMAL | Frontend Developer</title>
+        <meta name="description" content="Kamal Hossen Frontend Developer Portfolio" />
         <link rel="icon" href="/images/logos/logo32x32.png" />
       </Head>
       <div className={styles.container}>
@@ -21,7 +21,7 @@ const Home = () => {
               <p>{"{"}</p>
               <p className={styles.indent}>name: &ldquo;Md Kamal Hossen&rdquo;,</p>
               <p className={styles.indent}>occupation: &ldquo;Frontend Developer&rdquo;,</p>
-              <p className={styles.indent}>languages: [&ldquo;English&rdquo;, &ldquo;Korean&rdquo;],</p>
+              <p className={styles.indent}>languages: [&ldquo;English&rdquo;, &ldquo;Bangla&rdquo;],</p>
               <p className={styles.indent}>for_hire: true</p>
               <p>{"}"}</p>
             </code>
