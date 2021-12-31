@@ -24,6 +24,7 @@ const Home = () => {
               <p className={styles.indent}>languages: [&ldquo;English&rdquo;, &ldquo;Bangla&rdquo;],</p>
               <p className={styles.indent}>for_hire: true</p>
               <p>{"}"}</p> */}
+              
             </code>
           </div>
           <a href="/pdf/ElijahLee_CV.pdf" target="_blank" className={styles.cvBtn}>Download CV</a>
