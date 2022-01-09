@@ -86,14 +86,14 @@ const Home = () => {
         <div className={`${styles.sidebarRight} ${theme?.borders ? `noBorder` : ''}`} style={{ background: theme.sidebarRightBg }}></div>
       </div>
       <div className={`${styles.experienceWrapper} ${theme?.borders ? `noBorder` : ''}`}>
-        <article className={theme?.borders ? `noBorder` : ''} style={{ background: theme.poomgoBg }}>
+        <article className={theme?.borders ? `noBorder` : ''} >
           <a href="www.tttiawt.net" target="_blank" rel="noreferrer">
             <div>
               <Image src={"/images/pages/portfolio/poomgoWhite.svg"} alt="Kamal Developer" layout='fill' />
             </div>
           </a>
           <div>
-            poomgo
+            Kamal 
           </div>
         </article>
         <article style={{ background: theme.dohandsBg }}>
@@ -103,7 +103,7 @@ const Home = () => {
             </div>
           </a>
           <div>
-            dohands
+            React Designer
           </div>
         </article>
       </div>
