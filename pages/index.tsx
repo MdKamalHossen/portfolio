@@ -24,8 +24,8 @@ const Home = () => {
               <p className={styles.indent}>languages: [&ldquo;English&rdquo;, &ldquo;Bangla&rdquo;],</p>
               <p className={styles.indent}>for_hire: true</p>
               <p>{"}"}</p> */
-              <p>
-                I am Kamal From Jhenaidah. 
+              <p className='p-3'>
+                  I am Kamal From Jhenaidah. 
                   I have Completed Diploma in Engineering and also Runing 
                   Bsc in Engineering at Bangladesh University of Business ans Technology, 
                   I worked at Aman Knitting Ltd as a Store Office, Now I am Working at Trust 
@@ -87,7 +87,7 @@ const Home = () => {
       </div>
       <div className={`${styles.experienceWrapper} ${theme?.borders ? `noBorder` : ''}`}>
         <article className={theme?.borders ? `noBorder` : ''} style={{ background: theme.poomgoBg }}>
-          <a href="https://poomgo.com/" target="_blank" rel="noreferrer">
+          <a href="www.tttiawt.net" target="_blank" rel="noreferrer">
             <div>
               <Image src={"/images/pages/portfolio/poomgoWhite.svg"} alt="poomgo logo" layout='fill' />
             </div>

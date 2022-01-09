@@ -9,7 +9,7 @@ const About = () => {
     <>
       <Head>
         <title> Kamal Hossen | Frontend Developer</title>
-        <meta name="description" content="About Elijah Lee Frontend Developer" />
+        <meta name="description" content="About Kamal Hossen Frontend Developer" />
         <link rel="icon" href="/images/logos/logo32x32.png" />
       </Head>
       <div className={styles.container}>
