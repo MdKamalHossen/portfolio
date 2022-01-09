@@ -89,7 +89,7 @@ const Home = () => {
         <article className={theme?.borders ? `noBorder` : ''} style={{ background: theme.poomgoBg }}>
           <a href="www.tttiawt.net" target="_blank" rel="noreferrer">
             <div>
-              <Image src={"/images/pages/portfolio/poomgoWhite.svg"} alt="poomgo logo" layout='fill' />
+              <Image src={"/images/pages/portfolio/poomgoWhite.svg"} alt="Kamal Developer" layout='fill' />
             </div>
           </a>
           <div>
