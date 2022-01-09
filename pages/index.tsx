@@ -23,11 +23,20 @@ const Home = () => {
               <p className={styles.indent}>occupation: &ldquo;Frontend Developer&rdquo;,</p>
               <p className={styles.indent}>languages: [&ldquo;English&rdquo;, &ldquo;Bangla&rdquo;],</p>
               <p className={styles.indent}>for_hire: true</p>
-              <p>{"}"}</p> */}
-              
+              <p>{"}"}</p> */
+              <p>
+                I am Kamal From Jhenaidah. 
+                  I have Completed Diploma in Engineering and also Runing 
+                  Bsc in Engineering at Bangladesh University of Business ans Technology, 
+                  I worked at Aman Knitting Ltd as a Store Office, Now I am Working at Trust 
+                  Technical Training Institute (TTTI) as an Assistant Coordinator.
+                  I have around 4 Years Experience in Both Sector
+              </p>
+              }
+
             </code>
           </div>
-          <a href="/pdf/ElijahLee_CV.pdf" target="_blank" className={styles.cvBtn}>Download CV</a>
+          <a href="/pdf/Kamal_CV.pdf" target="_blank" className={styles.cvBtn}>Download CV</a>
           <div className={`${styles.skillsWrapper} ${theme?.borders ? `noBorder` : ''}`}>
             <figure>
               <div>
