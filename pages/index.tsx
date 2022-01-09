@@ -74,12 +74,7 @@ const Home = () => {
               </div>
               <figcaption>CSS</figcaption>
             </figure>
-            <figure>
-              <div>
-                <Image src={"/images/pages/portfolio/skills/cypress.svg"} alt="Cypress logo" layout='fill' />
-              </div>
-              <figcaption>Cypress</figcaption>
-            </figure>
+            
             <figure>
               <div>
                 <Image src={"/images/pages/portfolio/skills/sass.svg"} alt="Sass logo" layout='fill' />
