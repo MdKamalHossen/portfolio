@@ -15,8 +15,15 @@
     border-top: 5px solid var(--tatami-border);
     border-left: none;
   }
+  .index_code__ETUOL>p {
+    color: var(--primary-text);
+    margin: 0;
+    margin-left: 18px;
+    margin-right: 16px;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
 }
-
 // code
 .blackBg {
   display: flex;
