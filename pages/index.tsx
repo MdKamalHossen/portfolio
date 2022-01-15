@@ -25,7 +25,7 @@ const Home = () => {
               <p className={styles.indent}>for_hire: true</p>
               <p>{"}"}</p> */
                 <p className='p-3 index_code__ETUOL>p'>
-                  I am Kamal Hossen, I am a web Design and Developer, I have Complete Diploma in Engineering From Jhenaidah Polytechnic Institute, Now I have Running Bsc in Engineering in CSE at Bangladesh University of Business and Technology, I worked at Aman Knitting Ltd as a Store Officer, Now I Working Trust Technical Training Institute
+                  I am Kamal Hossen, I am a web Designer and Developer, I have Complete Diploma in Engineering From Jhenaidah Polytechnic Institute, Now I have Running Bsc in Engineering in CSE at Bangladesh University of Business and Technology, I worked at Aman Knitting Ltd as a Store Officer, Now I Working Trust Technical Training Institute
                    as an Assistant Coordinator and Database Operator, I have around 3 Years Experience in Garments and Institute sector.
                 </p>
               }
