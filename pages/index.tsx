@@ -32,7 +32,7 @@ const Home = () => {
 
             </code>
           </div>
-          <a href="/pdf/Kamal_CV.pdf" target="_blank" className={styles.cvBtn}>Download CV</a>
+          <a href="/pdf/Resume.pdf" target="_blank" className={styles.cvBtn}>Download CV</a>
           <div className={`${styles.skillsWrapper} ${theme?.borders ? `noBorder` : ''}`}>
             <figure>
               <div>
