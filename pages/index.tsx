@@ -24,14 +24,10 @@ const Home = () => {
               <p className={styles.indent}>languages: [&ldquo;English&rdquo;, &ldquo;Bangla&rdquo;],</p>
               <p className={styles.indent}>for_hire: true</p>
               <p>{"}"}</p> */
-              <p className='p-3'>
-                  I am Kamal From Jhenaidah. 
-                  I have Completed Diploma in Engineering and also Runing 
-                  Bsc in Engineering at Bangladesh University of Business ans Technology, 
-                  I worked at Aman Knitting Ltd as a Store Office, Now I am Working at Trust 
-                  Technical Training Institute (TTTI) as an Assistant Coordinator.
-                  I have around 4 Years Experience in Both Sector
-              </p>
+                <p className='p-3'>
+                  I am Kamal Hossen, I am a web Design and Developer, I have Complete Diploma in Engineering From Jhenaidah Polytechnic Institute, Now I have Running Bsc in Engineering in CSE at Bangladesh University of Business and Technology, I worked at Aman Knitting Ltd as a Store Officer, Now I Working Trust Technical Training Institute
+                   as an Assistant Coordinator and Database Operator, I have around 3 Years Experience in Garments and Institute sector.
+                </p>
               }
 
             </code>
@@ -74,7 +70,7 @@ const Home = () => {
               </div>
               <figcaption>CSS</figcaption>
             </figure>
-            
+
             <figure>
               <div>
                 <Image src={"/images/pages/portfolio/skills/sass.svg"} alt="Sass logo" layout='fill' />
@@ -93,7 +89,7 @@ const Home = () => {
             </div>
           </a>
           <div>
-            Kamal 
+            Kamal
           </div>
         </article>
         <article style={{ background: theme.dohandsBg }}>
