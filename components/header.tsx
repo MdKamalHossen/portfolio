@@ -22,7 +22,7 @@ const Header = () => {
       <nav className={styles.nav}>
         <div className={styles.circleWrap} style={{ background: theme.sidebarLeftBg }}>
           <Link href="/">
-            <a>Kamal</a>
+            <a></a>
           </Link>
         </div>
         <ul className={theme?.borders ? 'noBorder' : ''}>
